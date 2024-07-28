@@ -18,7 +18,7 @@ const Statistics = ({ platforms }) => {
           cx={200}
           cy={200}
           labelLine={false}
-          label={({ name, percent }) => `${name}: ${(percent * 100).toFixed(0)}%`}
+          label={({ name, amountSpent }) => `${name}: £${amountSpent}`}
           outerRadius={80}
           fill="#8884d8"
           dataKey="value"
